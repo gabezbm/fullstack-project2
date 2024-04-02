@@ -25,3 +25,4 @@ npm run preview
 changelog:
 
 - 2024-04-01: the basic starter template is ready
+- 2024-04-01: the topbar (navbar) is ready (not sure if I'm using it the right way but it seems to work)
