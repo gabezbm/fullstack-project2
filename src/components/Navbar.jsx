@@ -1,5 +1,4 @@
 import logo from "/logo.svg";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -34,7 +33,7 @@ const Navbar = () => {
             <span>Noteworthy</span>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center flex">
           <ul className="menu menu-horizontal px-1">
             {NavLinks.map(({ text, url }, index) => (
               <li className="mx-1" key={index}>
