@@ -1,4 +1,4 @@
-import logo from "/logo.jpg";
+import logo from "/logo.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
     <>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <div className="badge gap-3">
+          <div className="badge gap-3 py-6 border-none font-semibold text-xl">
             <img src={logo} className="size-9 rounded-full" />
             <span>Noteworthy</span>
           </div>
