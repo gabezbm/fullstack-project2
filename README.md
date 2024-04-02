@@ -1,8 +1,27 @@
-# React + Vite
+:warning: This is a temprary readme file for the project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+for dev preview:
 
-Currently, two official plugins are available:
+```shell
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+or for production preview:
+
+```shell
+npm run build
+npm run preview
+```
+
+:warning: **Note**: if you are using VSCode, enable the following plugins for better experience:
+
+- Prettier - Code formatter
+- PostCSS Language Support
+- Tailwind CSS IntelliSense
+
+**Note**: I'm using [daisyUI](https://daisyui.com/) + [tailwindcss](https://tailwindcss.com/) for this project, not sure if it's a good idea
+
+changelog:
+
+- 2024-04-01: the basic starter template is ready
