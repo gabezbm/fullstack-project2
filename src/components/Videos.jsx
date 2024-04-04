@@ -15,7 +15,7 @@ const Videos = () => {
   let [videoId, setVideoId] = useState(0);
   return (
     <>
-      <div className="absolute top-0 left-0 h-screen w-screen -z-50 flex justify-center items-center gap-20">
+      <div className="fade-in absolute top-0 left-0 h-screen w-screen -z-50 flex justify-center items-center bg-base-200 gap-20">
         {videoId > 0 ? (
           <ArrowButton
             direction={"left"}

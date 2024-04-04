@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fade-in {
+    animation: fadeIn 0.8s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: 0px -10px; }
+    100% { opacity: 1; transform: 0px 0px; }
+}

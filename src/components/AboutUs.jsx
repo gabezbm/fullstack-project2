@@ -3,7 +3,7 @@ import noteworthy from "/noteworthy.jpg";
 const AboutUs = () => {
   return (
     <div className="absolute top-0 left-0 h-screen w-screen -z-50 flex justify-center items-center gap-20 bg-base-200 hero">
-      <div className="hero-content flex-col lg:flex-row-reverse px-[15%]">
+      <div className="fade-in hero-content flex-col lg:flex-row-reverse px-[15%]">
         <img
           src={noteworthy}
           className="max-w-sm rounded-lg shadow-2xl md:hidden lg:block"
