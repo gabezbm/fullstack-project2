@@ -5,8 +5,8 @@ const Auditions = () => {
     <div className="absolute top-0 left-0 h-screen w-screen -z-50 flex justify-center items-center gap-20 bg-base-200 hero">
       <div className="fade-in hero-content flex-col lg:flex-row-reverse px-[10%] gap-20">
         <div className="block w-[50%]">
-          <h1 className="text-5xl font-bold">Auditions</h1>
-          <h2 className="text-2xl font-semibold mt-2">Opening Fall 2024</h2>
+          <h1>Auditions</h1>
+          <h2>Opening Fall 2024</h2>
           <p>
             Our next round of auditions will take place in fall 2024. We are
             looking for lower voices (alto, tenors, baritones, and basses) as

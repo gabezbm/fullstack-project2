@@ -12,3 +12,22 @@
     100% { opacity: 1; transform: 0px 0px; }
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p, li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+li {
+    list-style: circle;
+    margin-left: 1rem;
+}
