@@ -10,11 +10,9 @@ const AboutUs = () => {
           alt="Noteworthy"
         />
         <div>
-          <h1 className="text-5xl font-bold">Noteworthy</h1>
-          <h2 className="text-2xl font-semibold mt-2">
-            In-vest-ed in A Cappella
-          </h2>
-          <p className="py-6">
+          <h1>Noteworthy</h1>
+          <h2>In-vest-ed in A Cappella</h2>
+          <p>
             We're a lower-voices a cappella group known for our fun performances
             and fresh takes on popular songs! It always feels sunny when we
             perform, and not just because of our golden vests!
