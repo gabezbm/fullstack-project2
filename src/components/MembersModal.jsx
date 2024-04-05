@@ -9,7 +9,7 @@ const MembersModal=({memberId})=>{
             Bsemster : "6th",
             Nsemster : "2nd",
             interests: "t1s, poke parlor before they removed the party discount, nilah sejuani, r/dataisbeautiful, tartaglia, peets coffee, open toed shoes, and my BRITA",
-            bio: "So I legit can’t think of anything to write here so I’ll just provide this useful data because I stan dataframes and data science and data and pandas (animal) and python (animal) and machines (animal) and learning (animal).\n https://docs.google.com/spreadsheets/d/15TmBXWZ5PRe1Dr2sG6V9TuS_vVeXQvUHj5EKHAkTGDY",
+            bio: "So I legit can’t think of anything to write here so I’ll just provide this useful data because I stan dataframes and data science and data and pandas (animal) and python (animal) and machines (animal) and learning (animal).",
             q1 : "sup.",
             q2 : "Oh, sing it now!, You know I want you.",
             photo: "maya.jpg"
@@ -35,7 +35,7 @@ const MembersModal=({memberId})=>{
             Bsemster : "4th",
             Nsemster : "3rd",
             interests: "Singing, gaming, complaining, no longer cyberbullying the managers on discord since they started posting in announcements! We love progress!",
-            bio: "I’ve been drafting my bio with some other people and ran out of ideas, but I got some pretty funny feedback in the process:\n“You’re not funny”\n“You’re doing great”\n“No.”\n“I love long stories”\n“Yo wanna do NYT Connections”\n“Wordle?”\n“Wait you got 6”\nAnyways I give up I’m too tired for this. This is Alex and you’ve been watching Disney channel.\n“Alex you need to work on this”\naslfjasdlkasdfl;kjflsjka I’ll get better ideas next semester I swear trust\" ~Alex, Fall 2023\nI unfortunately did not get better ideas next semester (now), so I'll just copy paste and make fun of myself I guess? Seems about right.",
+            bio: "I’ve been drafting my bio with some other people and ran out of ideas, but I got some pretty funny feedback in the process:\n “You’re not funny”\n “You’re doing great”\n“No.”\n “I love long stories”\n “Yo wanna do NYT Connections”\n“Wordle?”\n“Wait you got 6”\nAnyways I give up I’m too tired for this. This is Alex and you’ve been watching Disney channel.\n“Alex you need to work on this”\naslfjasdlkasdfl;kjflsjka I’ll get better ideas next semester I swear trust\" ~Alex, Fall 2023\nI unfortunately did not get better ideas next semester (now), so I'll just copy paste and make fun of myself I guess? Seems about right.",
             q1 : "Sharetea doe go tones",
             q2 : "Yes, No, Oh, sing it now!, All around the world!, What the hell does that mean, Option 14, true, false, wehhhh, You know I want you.",
             photo : "alex.jpg"
@@ -87,7 +87,7 @@ const MembersModal=({memberId})=>{
             Bsemster : "8th",
             Nsemster : "3rd",
             interests: "Video Games, uhhhhhhh, Acapella, uhhhhhhhhh, Working Out, uhh oh and Acting",
-            bio: "The same one from before is good thankssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss" ,
+            bio: "The same one from before is good thanksssssssssssssssssssssssss" ,
             q1 : "no",
             q2 : "Yes, You know I want you.",
             photo : "jerry.jpg"
@@ -229,14 +229,14 @@ const MembersModal=({memberId})=>{
                         />
                         <div>
                             <h1 className="text-5xl font-bold">{member.name}</h1>
-                            <ul className="list-disc">
+                            <ul className="list-disc word-break:break-all">
                                 <li><b>Pronoun: </b>{member.pronoun}</li>
                                 <li><b>Voice Part: </b>{member.voicePart}</li>
                                 <li><b>Major(s)/Minor(s): </b>{member.Majorminor}</li>
                                 <li><b>Semester in Berkeley: </b>{member.Bsemster}</li>
                                 <li><b>Semester in Noteworthy: </b>{member.Nsemster}</li>
                                 <li><b>Interests: </b>{member.insterests}</li>
-                                <li><b>Bio: </b>{member.bio}</li>
+                                <li className="work-break:break-all"><b>Bio: </b>{member.bio}</li>
                             </ul>
                         </div>
                     </div>
