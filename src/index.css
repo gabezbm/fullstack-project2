@@ -22,7 +22,12 @@ h2 {
     font-weight: 600;
 }
 
-p {
+p, li {
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+li {
+    list-style: circle;
+    margin-left: 1rem;
 }
